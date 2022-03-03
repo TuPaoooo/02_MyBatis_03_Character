@@ -12,3 +12,4 @@
     <select id="findGreaterThanAge" parameterType="Integer" resultType="com.fc.entity.Student">
         select * from student where age <![CDATA[>]]> #{age}
     </select>
+ </mapper>
